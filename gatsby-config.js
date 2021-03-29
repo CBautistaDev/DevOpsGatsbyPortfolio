@@ -26,7 +26,7 @@ module.exports = {
         short_name: `Simplefolio`,
         start_url: `/`,
         background_color: `#fff`,
-        theme_color: `#02aab0`,
+        theme_color: `#557A95`,
         display: `standalone`,
         icon: 'src/images/favicon.png',
       },

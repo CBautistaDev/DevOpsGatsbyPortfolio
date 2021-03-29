@@ -112,7 +112,8 @@ Go to `/src/mock/data.js` and fill your information, they are 5 objects:
 export const heroData = {
   title: '', // Hello, my name is
   name: '', // John
-  subtitle: '', // I'm the Unknown Developer.
+
+  subtitle: 'Carlos Bautista the Unknown DevOps Engineer.', // I'm the Unknown Developer.
   cta: '', // Know more
 };
 ```
@@ -123,7 +124,7 @@ export const heroData = {
 
 ```javascript
 export const aboutData = {
-  img: 'profile.jpg', // put your profile image (recommended aspect radio: square)
+  img: '', // put your profile image (recommended aspect radio: square)
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
@@ -142,7 +143,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
+    title: 'Python Teams',
     info: '',
     info2: '',
     url: '',
@@ -151,7 +152,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
+    title: 'Python AWS ECS Force Deploy',
     info: '',
     info2: '',
     url: '',
@@ -181,16 +182,6 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '', // your twitter url
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '', // your codepen url
-    },
-    {
-      id: nanoid(),
       name: 'linkedin',
       url: '', // your linkedin url
     },
@@ -210,7 +201,7 @@ By setting to `false` it will hide the GitHub stars/fork buttons
 
 ```javascript
 export const githubButtons = {
-  isEnabled: true, // true is the default value
+  isEnabled: false, // true is the default value
 };
 ```
 
